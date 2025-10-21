@@ -1,4 +1,8 @@
+//This is a simple calculator form my side 
+//Author : Paramjeet
+
 #include<stdio.h>
+
 
 int main(){
 	
