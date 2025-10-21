@@ -6,7 +6,7 @@ int main(){
 	printf("Enter a integer :");
 	scanf("%d",&number);
 	
-	//Hnadle negative numbers by converting to positive for digit extraction
+	//Handle negative numbers by converting to positive for digit extraction
 	
 	int tempNumber = number;
 	if (tempNumber<0){
