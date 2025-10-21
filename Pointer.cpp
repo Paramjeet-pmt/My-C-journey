@@ -15,11 +15,11 @@ int main(){
 	printf("x= %d\n",x); //value at x
 	printf("*ptr = %d\n",*ptr);//value at that addrress stored by ptr
 	
-	*ptr += 5;
-	printf("x= %d\n",x);
-	printf("*ptr = %d\n", *ptr);
+	*ptr += 5;//means add the value to 5 at that address stored by ptr
+	printf("x= %d\n",x);//print the value of x
+	printf("*ptr = %d\n", *ptr);//print the value store at the address
 	
-	(*ptr)++;
+	(*ptr)++;//increase the value by 1 at that address stored by ptr
 	printf("x=%d\n",x);
 	printf("*ptr=%d\n", *ptr);
 	
