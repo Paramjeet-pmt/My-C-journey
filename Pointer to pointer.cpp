@@ -1,3 +1,4 @@
+Author Paramjeet-pmt
 #include<stdio.h>
 
 int main(){
