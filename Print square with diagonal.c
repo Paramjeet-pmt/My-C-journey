@@ -1,4 +1,4 @@
-Program to print square with diagonal 
+//Program to print square with diagonal 
 #include <stdio.h>
 
 int main() {
