@@ -1,5 +1,5 @@
-
 #include <stdio.h>
+#include<math.h>
 
 int main()
 {
@@ -7,14 +7,13 @@ int main()
     double result = 0.0;
 
     printf("Enter a number :");
-    svanf("%d", &num);
+    scanf("%d", &num);
 
     original = num;
 
     // Count digits
     int temp = num;
-    while (temp != o)
-    {
+    while (temp != 0){
         temp /= 10;
         n++;
     }
@@ -27,10 +26,10 @@ int main()
         result += pow(remainder, n);
         temp /= 10;
     }
-    if (int)result == original)
+    if ( result == original){
         printf("%d is an Armstrong number.\n", original);
-    else
+    }else{
         printf("%d is not an Armstrong number.\n", original);
-
+    }
     return 0;
 }
